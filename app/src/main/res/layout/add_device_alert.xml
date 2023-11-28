@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@color/back_ground">
+
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="5dp"
+            android:text="Chip Id"
+            android:textColor="@color/textView"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextChipId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:layout_marginBottom="20dp"
+            android:inputType="textPersonName"
+            android:layout_marginStart="5dp"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="5dp"
+            android:text="Device Name"
+            android:textColor="@color/textView"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextDeviceName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:layout_marginBottom="20dp"
+            android:inputType="textPersonName"
+            android:layout_marginStart="5dp"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:text="" />
+
+
+        <Button
+            android:id="@+id/buttonAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/textView"
+            android:bottomLeftRadius="30dp"
+            android:bottomRightRadius="30dp"
+            android:layout_marginStart="90dp"
+            android:layout_marginEnd="80dp"
+            android:drawable="@drawable/button_custom"
+            android:text="Add Device"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:topLeftRadius="60dp"
+            android:topRightRadius="60dp" />
+
+    </LinearLayout>
+</layout>
